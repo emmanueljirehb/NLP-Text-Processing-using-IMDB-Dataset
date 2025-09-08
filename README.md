@@ -56,7 +56,8 @@ Businesses and streaming platforms rely heavily on customer feedback. However, m
 
 ## 🏗️ Project Architecture  
 
-![NLP IMDB Workflow](assets/nlp_imdb_architecture.png)  
+<img width="768" height="32" alt="nlp_imdb_architecture" src="https://github.com/user-attachments/assets/1c415815-a41f-4c4f-a66a-89b733bef1dd" />
+
 
 ---
 
@@ -133,7 +134,7 @@ seaborn
 ---
 
 ## 📂 Project Structure
-
+```
 ├── data/
 │ └── imdb.csv
 ├── notebooks/
@@ -143,7 +144,7 @@ seaborn
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
