@@ -56,8 +56,19 @@ Businesses and streaming platforms rely heavily on customer feedback. However, m
 
 ## 🏗️ Project Architecture  
 
-<img width="768" height="32" alt="nlp_imdb_architecture" src="https://github.com/user-attachments/assets/1c415815-a41f-4c4f-a66a-89b733bef1dd" />
-
+```
+├──                                      Raw IMDB Reviews/
+│                                                ⬇️
+├──           Text Preprocessing (Cleaning, Tokenization, Stopword Removal, Lemmatization)
+│                                                ⬇️
+├──                  Feature Engineering (TF-IDF Vectorization, Feature Selection)
+│                                                ⬇️
+├──                         Model Training (LogReg, SVM, Naive Bayes)
+├──                                              ⬇️
+├──                        Evaluation\n(Accuracy, Precision, Recall, F1)
+├──                                              ⬇️
+└──                           Final Sentiment Classifier\n(85% Accuracy)
+```
 
 ---
 
